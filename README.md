@@ -17,6 +17,25 @@ This project contains an implementation of Merge sort and Bubble sort using Asse
 
 ## Instructions in SimpleRISC
 ```
-mov
+mov reg, (reg/imm)
+add reg, reg, (reg/imm)
+sub reg, reg. (reg/imm)
+mul reg, reg, (reg/imm) 
+div reg. reg. (reg/imm)
+mod reg, reg, (reg/imm)
+cmp reg. (reg/imm)
+and reg, reg, (reg/imm)
+reg, reg. (reg/imm)
+not reg. (reg/imm)
+A bitwise AND, V bitwise OR, ~ logical complement
+lsl reg, reg. (reg/imm)     (shift left logical)
+lsr reg, reg, (reg/imm)     (shift right logical)
+asr reg, reg, (reg/imm)     (arithmetic shift right)
+asl reg, reg, (reg/imm)     (arithmetic shift left)
+ld reg, imm[reg]            (load)
+st reg, imm[reg]            (store)
+b label b.foo branch to .foo
+beq label (branch to label if flags.E=1)
+bgt .foo branch to foo if flags.GT 1
 ```
 
