@@ -1,7 +1,7 @@
 
 # Merge sort and Bubble sort using Assembly Programming
 
-This project contains an implementation of Merge sort and Bubble sort using Assembly Programming using SimpleRISC.
+This project contains an implementation of Merge sort and Bubble sort in Assembly Programming using SimpleRISC.
 
 ## SimpleRISC
 
